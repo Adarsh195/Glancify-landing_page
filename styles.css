@@ -1,0 +1,137 @@
+body{
+    margin:0;
+      background-color:#DAE5D0;
+   
+      font-family: montserrat;
+  }
+  ul { 
+    list-style-type: none;
+    margin: 0;
+    
+  }
+ 
+  li {
+    display: inline;
+    float:right;
+  }
+  a {
+    display: block;
+    padding:0 10px;
+    color:#fff;
+    /* background-color: #dddddd; */
+  }
+  #header{
+    background-color: #006f7e;
+    width: 100%;
+    top:0;
+  /* height: 45px; */
+    position:fixed;
+    
+  /*   height:90px; */
+  }
+  #header-img{
+    height:61.53px;
+    width:290px;
+    display: block;
+  
+    /* margin-left:10px */
+    float:left;
+  }
+  #nav-bar{ 
+    background-color: #006f7e;
+  }
+  .nav-link{
+   
+  }
+  .butt{
+    border-radius:5px;
+    width:auto;
+    background-color: rgb(39, 38, 38);border-style: none;
+   
+    display:flex;
+    padding: 6px;
+  }
+  .butt:hover{
+     background-color: black;
+    color:antiquewhite;
+  }
+  .ic{
+    color:#fff;
+    font-size: 20px;
+    margin: 6px 6px 2px 4px;
+   
+  }
+  p{
+    font-weight: 100;
+    margin:4px 0;
+   
+    font-size: 1.3rem;
+    
+    color: #fff;
+   
+  }
+
+  /* main */
+  #about{background-color: #006f7e;
+    margin-top:61.53px;
+    padding:2% 5%;
+    display:flex;
+  }
+  h2{font-weight: 900;
+    font-size: 3.5rem;
+    color:#fff;
+  }
+  
+  /* features */
+  #features{
+    display:flex;
+    text-align: center;
+    margin:auto;
+    padding:60px 200px;
+  }
+  .f1{
+    margin:30px 20px;
+    width:300px;
+  }
+  h3{
+    font-size: 1.8rem;
+  }
+  .i2{color: #006f7e;
+    font-size: 50px;
+  }
+  #video{
+    text-align: center;
+  }
+  /*  */
+  #details{
+    color: #ffffff;
+    background-color: #006f7e;
+    padding: 40px 350px;
+    text-align: center;
+  }
+  #email{font-size:17px;
+    width:500px;
+    height:30px;
+  }
+  #submit{font-size:17px;
+    background-color: #13bbd1;
+    width:200px;
+    height:36px;
+    margin-top:20px;
+  }
+
+
+  /* 
+   */
+   #footer{
+     color:#000000;
+     padding:30px 500px;
+     text-align: center;
+     
+   }
+   .last{
+     font-size: 1rem;color:#000000;
+   }
+   .f-img{
+     margin:5px 8px;
+   }
